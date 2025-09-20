@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simple Quarto Website",
+    "section": "",
+    "text": "Column 1\nThis is the first row of column 1. This is the second row of column 1. This is the third row of column 1.\n\nColumn 2\nThis is the first row of column 2. This is the second row of column 2. This is the third row of column 2.\n\n\n\n\n\nOption A\nOption B\nOption C\nOption D\nOption E\n\n\n\n\n\n\nHeader 1\nHeader 2\nHeader 3\n\n\n\n\nRow 1\nData\n123\n\n\nRow 2\nData\n456\n\n\nRow 3\nData\n789\n\n\n\nHere is an inline math Latex question: \\(A*w=X\\)\nHere is a non-inline math Latex equation:\n\\[ \\sum_{i=1}^{n} i = \\frac{n(n+1)}{2} \\]"
+  },
+  {
+    "objectID": "index.html#lists-table-and-math",
+    "href": "index.html#lists-table-and-math",
+    "title": "Simple Quarto Website",
+    "section": "",
+    "text": "Option A\nOption B\nOption C\nOption D\nOption E\n\n\n\n\n\n\nHeader 1\nHeader 2\nHeader 3\n\n\n\n\nRow 1\nData\n123\n\n\nRow 2\nData\n456\n\n\nRow 3\nData\n789\n\n\n\nHere is an inline math Latex question: \\(A*w=X\\)\nHere is a non-inline math Latex equation:\n\\[ \\sum_{i=1}^{n} i = \\frac{n(n+1)}{2} \\]"
+  },
+  {
+    "objectID": "index.html#quotes",
+    "href": "index.html#quotes",
+    "title": "Simple Quarto Website",
+    "section": "2.1: Quotes",
+    "text": "2.1: Quotes\n\nThis is a blockquote."
+  },
+  {
+    "objectID": "index.html#embedded-video",
+    "href": "index.html#embedded-video",
+    "title": "Simple Quarto Website",
+    "section": "3.1: Embedded Video",
+    "text": "3.1: Embedded Video\nHere is an embedded video:\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "Simple Quarto Website",
+    "section": "3.2: Mermaid Diagram",
+    "text": "3.2: Mermaid Diagram\n\n\n\n\n\ngraph TD;\n    A--&gt;B;\n    A--&gt;C;\n    B--&gt;D;\n    C--&gt;D;"
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Simple Quarto Website",
+    "section": "3.3: Citation",
+    "text": "3.3: Citation\nThis is a citation example (Bassett and Sporns 2017) from the reference.bib file."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Simple Quarto Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote content.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#citation-example",
+    "href": "slides/slides.html#citation-example",
+    "title": "Slides",
+    "section": "Citation Example",
+    "text": "Citation Example\nThis is a citation example (Bassett and Sporns 2017) from the reference.bib file."
+  },
+  {
+    "objectID": "slides/slides.html#two-images-example",
+    "href": "slides/slides.html#two-images-example",
+    "title": "Slides",
+    "section": "Two Images Example",
+    "text": "Two Images Example\n\n\n\n\n\nImage 1\n\n\n\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "slides/slides.html#plot-example",
+    "href": "slides/slides.html#plot-example",
+    "title": "Slides",
+    "section": "Plot Example",
+    "text": "Plot Example\n\nimport matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [2, 3, 5, 7, 11]\n\nplt.plot(x, y)\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Plot')\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Slides",
+    "section": "References",
+    "text": "References\n\n\n\n\nBassett, Danielle S, and Olaf Sporns. 2017. “Network Neuroscience.” Nature Neuroscience 20 (3): 353–64."
+  }
+]

@@ -1,0 +1,98 @@
+---
+title: "Simple Quarto Website"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+bibliography: reference.bib
+editor: visual
+---
+
+# 1: Columns, Lists, Table, and Math
+
+::: {.columns}
+
+::: {.column width="50%"}
+**Column 1**
+
+This is the first row of column 1.
+This is the second row of column 1.
+This is the third row of column 1.
+
+:::
+
+::: {.column width="50%"}
+**Column 2**
+
+This is the first row of column 2.
+This is the second row of column 2.
+This is the third row of column 2.
+
+:::
+
+:::
+
+## 1.1: Lists, Table, and Math
+
+* Option A
+* Option B
+* Option C
+* Option D
+* Option E
+
+### 1.1.1: Table, and Math
+
+| Header 1 | Header 2 | Header 3 |
+|:---------|:--------:|---------:|
+| Row 1    |   Data   |    123   |
+| Row 2    |   Data   |    456   |
+| Row 3    |   Data   |    789   |
+
+
+Here is an inline math Latex question: $A*w=X$
+
+Here is a non-inline math Latex equation:
+
+$$ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $$
+
+# 2: Footnotes, Quotes
+
+Here is a footnote reference[^1].
+
+[^1]: This is the footnote content.
+
+## 2.1: Quotes
+
+> This is a blockquote.
+
+# 3: Two Embedded Images, Video, Mermaid Diagram, and Citation
+
+Here are two embedded images:
+
+![](images/image1.png){width=500px}
+
+![](images/image2.png){width=500px}
+
+## 3.1: Embedded Video
+
+Here is an embedded video:
+
+<video width="600" controls>
+  <source src="images/video1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## 3.2: Mermaid Diagram
+
+```{mermaid}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+## 3.3: Citation
+
+This is a citation example [@bassett2017network] from the reference.bib file.
+
